@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ch_late",
+    "cardId": "c_hdfc",
+    "statementMonth": "2026-11",
+    "type": "late_fee",
+    "amount": 600,
+    "reversible": true,
+    "note": "Late fee: paid 2 days after due date (25 Oct)."
+  },
+  {
+    "id": "ch_gst",
+    "cardId": "c_hdfc",
+    "statementMonth": "2026-11",
+    "type": "gst",
+    "amount": 108,
+    "reversible": true,
+    "note": "GST at 18% on the late fee. Reversed together with the fee."
+  },
+  {
+    "id": "ch_int",
+    "cardId": "c_icici",
+    "statementMonth": "2026-10",
+    "type": "interest",
+    "amount": 412,
+    "reversible": false,
+    "note": "Interest on ₹21,600 carried over for 9 days at 3.6% a month."
+  },
+  {
+    "id": "ch_fx",
+    "cardId": "c_axis",
+    "statementMonth": "2026-10",
+    "type": "forex_markup",
+    "amount": 120,
+    "reversible": false,
+    "note": "2% markup on a $72 international purchase."
+  },
+  {
+    "id": "ch_fee",
+    "cardId": "c_amex",
+    "statementMonth": "2026-09",
+    "type": "annual_fee",
+    "amount": 4500,
+    "reversible": false,
+    "note": "Annual fee. Waived above ₹1.5 lakh yearly spend (not met)."
+  }
+]

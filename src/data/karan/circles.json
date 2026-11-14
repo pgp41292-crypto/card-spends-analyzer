@@ -1,0 +1,290 @@
+{
+  "circles": [
+    {
+      "id": "circle_family",
+      "name": "Family",
+      "type": "family",
+      "members": [
+        {
+          "id": "m_karan",
+          "name": "Karan (you)",
+          "cards": [
+            {
+              "issuer": "SBI",
+              "name": "SimplyCLICK"
+            },
+            {
+              "issuer": "Kotak",
+              "name": "811"
+            }
+          ]
+        },
+        {
+          "id": "m_riya",
+          "name": "Riya (sister)",
+          "cards": [
+            {
+              "issuer": "ICICI",
+              "name": "Amazon Pay"
+            }
+          ]
+        },
+        {
+          "id": "m_mom",
+          "name": "Mom",
+          "cards": [
+            {
+              "issuer": "HDFC",
+              "name": "MoneyBack+"
+            }
+          ]
+        },
+        {
+          "id": "m_dad",
+          "name": "Dad",
+          "cards": [
+            {
+              "issuer": "Axis",
+              "name": "ACE"
+            }
+          ]
+        }
+      ],
+      "splits": [
+        {
+          "id": "s_diwali",
+          "title": "Diwali groceries",
+          "category": "groceries",
+          "amount": 4800,
+          "payerId": "m_mom",
+          "date": "2026-10-28",
+          "shares": [
+            {
+              "memberId": "m_karan",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_riya",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_mom",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_dad",
+              "amount": 1200,
+              "settled": true
+            }
+          ]
+        }
+      ],
+      "monthlyPaidForOthers": 18000,
+      "monthlyCap": 25000
+    },
+    {
+      "id": "circle_goa",
+      "name": "Goa trip",
+      "type": "trip",
+      "members": [
+        {
+          "id": "m_karan",
+          "name": "Karan (you)",
+          "cards": [
+            {
+              "issuer": "SBI",
+              "name": "SimplyCLICK"
+            },
+            {
+              "issuer": "Kotak",
+              "name": "811"
+            }
+          ]
+        },
+        {
+          "id": "m_aman",
+          "name": "Aman",
+          "cards": [
+            {
+              "issuer": "HDFC",
+              "name": "Regalia Gold"
+            }
+          ]
+        },
+        {
+          "id": "m_sneha",
+          "name": "Sneha",
+          "cards": [
+            {
+              "issuer": "SBI",
+              "name": "Cashback"
+            }
+          ]
+        },
+        {
+          "id": "m_vikram",
+          "name": "Vikram",
+          "cards": [
+            {
+              "issuer": "Axis",
+              "name": "Flipkart"
+            }
+          ]
+        },
+        {
+          "id": "m_pooja",
+          "name": "Pooja",
+          "cards": [
+            {
+              "issuer": "IDFC FIRST",
+              "name": "Select"
+            }
+          ]
+        }
+      ],
+      "splits": [
+        {
+          "id": "s_hotel",
+          "title": "Hotel booking, Baga",
+          "category": "travel",
+          "amount": 12500,
+          "payerId": "m_karan",
+          "date": "2026-10-18",
+          "shares": [
+            {
+              "memberId": "m_karan",
+              "amount": 2500,
+              "settled": true
+            },
+            {
+              "memberId": "m_aman",
+              "amount": 2500,
+              "settled": true
+            },
+            {
+              "memberId": "m_sneha",
+              "amount": 2500,
+              "settled": false
+            },
+            {
+              "memberId": "m_vikram",
+              "amount": 2500,
+              "settled": false
+            },
+            {
+              "memberId": "m_pooja",
+              "amount": 2500,
+              "settled": true
+            }
+          ]
+        },
+        {
+          "id": "s_scuba",
+          "title": "Scuba diving",
+          "category": "entertainment",
+          "amount": 6000,
+          "payerId": "m_aman",
+          "date": "2026-10-20",
+          "shares": [
+            {
+              "memberId": "m_karan",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_aman",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_sneha",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_vikram",
+              "amount": 1200,
+              "settled": true
+            },
+            {
+              "memberId": "m_pooja",
+              "amount": 1200,
+              "settled": true
+            }
+          ]
+        }
+      ],
+      "monthlyPaidForOthers": 10000,
+      "monthlyCap": 25000
+    }
+  ],
+  "memberCardOffers": [
+    {
+      "memberId": "m_riya",
+      "cardName": "ICICI Amazon Pay",
+      "category": "shopping",
+      "ratePct": 10,
+      "maxSaving": 3500,
+      "note": "10% instant discount on phones and electronics (sample offer)"
+    },
+    {
+      "memberId": "m_karan",
+      "cardName": "SBI SimplyCLICK",
+      "category": "shopping",
+      "ratePct": 5,
+      "maxSaving": 500,
+      "note": "5X rewards online, capped at ₹500 a month"
+    },
+    {
+      "memberId": "m_mom",
+      "cardName": "HDFC MoneyBack+",
+      "category": "groceries",
+      "ratePct": 5,
+      "maxSaving": 500,
+      "note": "10X points on BigBasket and Swiggy"
+    },
+    {
+      "memberId": "m_dad",
+      "cardName": "Axis ACE",
+      "category": "bills",
+      "ratePct": 5,
+      "maxSaving": 500,
+      "note": "5% on bill payments via Google Pay"
+    },
+    {
+      "memberId": "m_aman",
+      "cardName": "HDFC Regalia Gold",
+      "category": "travel",
+      "ratePct": 5,
+      "maxSaving": 2000,
+      "note": "5X on travel bookings via SmartBuy"
+    },
+    {
+      "memberId": "m_sneha",
+      "cardName": "SBI Cashback",
+      "category": "shopping",
+      "ratePct": 5,
+      "maxSaving": 5000,
+      "note": "5% on online spends"
+    },
+    {
+      "memberId": "m_vikram",
+      "cardName": "Axis Flipkart",
+      "category": "shopping",
+      "ratePct": 5,
+      "maxSaving": 4000,
+      "note": "5% on Flipkart"
+    },
+    {
+      "memberId": "m_pooja",
+      "cardName": "IDFC FIRST Select",
+      "category": "travel",
+      "ratePct": 3,
+      "maxSaving": 1000,
+      "note": "3X on travel"
+    }
+  ]
+}

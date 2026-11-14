@@ -1,0 +1,98 @@
+[
+  {
+    "id": "tip_n1",
+    "title": "Pay electricity and phone bills with the Paytm card for 3% back",
+    "cardIds": [
+      "c_paytm"
+    ],
+    "category": "bills",
+    "estSavingInr": 190,
+    "lastVerified": "2026-11-12",
+    "status": "verified",
+    "steps": [
+      "Open Recharge & Bills in Paytm.",
+      "Choose your biller and amount.",
+      "Select Paytm SBI Card SELECT at checkout.",
+      "Cashback shows on your next statement."
+    ],
+    "sources": [
+      {
+        "label": "Card terms (issuer)",
+        "type": "issuer"
+      },
+      {
+        "label": "r/CreditCardsIndia thread",
+        "type": "reddit"
+      }
+    ]
+  },
+  {
+    "id": "tip_n2",
+    "title": "Order food on HDFC Millennia to get 5% back",
+    "cardIds": [
+      "c_hdfc"
+    ],
+    "category": "food",
+    "estSavingInr": 420,
+    "lastVerified": "2026-11-10",
+    "status": "verified",
+    "steps": [
+      "Set HDFC Millennia as the default card in Swiggy and Zomato.",
+      "Keep monthly food spend under ₹20,000 to stay within the ₹1,000 cap.",
+      "Check cashback in the HDFC app after the statement."
+    ],
+    "sources": [
+      {
+        "label": "HDFC Millennia MITC",
+        "type": "issuer"
+      },
+      {
+        "label": "TechnoFino forum",
+        "type": "forum"
+      }
+    ]
+  },
+  {
+    "id": "tip_n3",
+    "title": "Fill ₹4,000 at a time at BPCL to max out fuel rewards",
+    "cardIds": [
+      "c_sbi"
+    ],
+    "category": "fuel",
+    "estSavingInr": 120,
+    "lastVerified": "2026-10-28",
+    "status": "needs_review",
+    "steps": [
+      "Fill at BPCL outlets only.",
+      "Keep each fill between ₹400 and ₹4,000.",
+      "Rewards cap at ₹500 a month."
+    ],
+    "sources": [
+      {
+        "label": "YouTube review",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "tip_n4",
+    "title": "SBI Cashback card gives 5% on all online spends",
+    "cardIds": [
+      "ext_sbi_cashback"
+    ],
+    "category": "shopping",
+    "estSavingInr": 600,
+    "lastVerified": "2026-11-09",
+    "status": "verified",
+    "steps": [
+      "Apply for the card.",
+      "Use it for online shopping."
+    ],
+    "sources": [
+      {
+        "label": "Issuer page",
+        "type": "issuer"
+      }
+    ]
+  }
+]

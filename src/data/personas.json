@@ -1,0 +1,46 @@
+[
+  {
+    "id": "neha",
+    "name": "Neha",
+    "archetype": "Cautious Controller",
+    "age": 29,
+    "city": "Pune",
+    "occupation": "Salaried",
+    "monthlySpend": "₹50–70k a month",
+    "features": [
+      "F1",
+      "F2",
+      "F4",
+      "F8"
+    ]
+  },
+  {
+    "id": "arjun",
+    "name": "Arjun",
+    "archetype": "Reward Maximiser",
+    "age": 31,
+    "city": "Bengaluru",
+    "occupation": "IT professional",
+    "monthlySpend": "₹1.2–1.5 lakh a month",
+    "features": [
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F10"
+    ]
+  },
+  {
+    "id": "karan",
+    "name": "Karan",
+    "archetype": "Group Spender",
+    "age": 25,
+    "city": "Lucknow",
+    "occupation": "Early career",
+    "monthlySpend": "₹15–25k a month",
+    "features": [
+      "F7",
+      "F9"
+    ]
+  }
+]

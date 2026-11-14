@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local editor / OS files
+.vscode/
+.DS_Store
+*.log
+
+# Local env files (none used today, but keep secrets out by default)
+.env
+.env.*

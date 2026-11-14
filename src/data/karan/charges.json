@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ch_k_int",
+    "cardId": "c_kotak",
+    "statementMonth": "2026-10",
+    "type": "interest",
+    "amount": 85,
+    "reversible": false,
+    "note": "Interest on ₹1,900 carried over for 14 days."
+  }
+]

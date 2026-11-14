@@ -1,0 +1,164 @@
+[
+  {
+    "id": "c_hdfc",
+    "issuer": "HDFC",
+    "name": "Swiggy (sample)",
+    "last4": "6451",
+    "network": "Mastercard",
+    "limit": 300000,
+    "outstanding": 7733,
+    "billDay": 5,
+    "dueDay": 25,
+    "color": "#1D4ED8",
+    "rewardRules": [
+      {
+        "category": "food",
+        "ratePct": 10,
+        "monthlyCap": 1500
+      },
+      {
+        "category": "shopping",
+        "ratePct": 5,
+        "monthlyCap": 1500
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 2400,
+    "pointValueInr": 1,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_axis",
+    "issuer": "Axis",
+    "name": "Atlas (sample)",
+    "last4": "3308",
+    "network": "Visa",
+    "limit": 500000,
+    "outstanding": 39979,
+    "billDay": 20,
+    "dueDay": 10,
+    "color": "#9F1239",
+    "rewardRules": [
+      {
+        "category": "travel",
+        "ratePct": 5,
+        "monthlyCap": 5000
+      },
+      {
+        "category": "fuel",
+        "ratePct": 0,
+        "excluded": true
+      },
+      {
+        "category": "all",
+        "ratePct": 2
+      }
+    ],
+    "pointsBalance": 24000,
+    "pointValueInr": 0.5,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_icici",
+    "issuer": "ICICI",
+    "name": "Amazon Pay (sample)",
+    "last4": "9021",
+    "network": "Visa",
+    "limit": 400000,
+    "outstanding": 0,
+    "billDay": 15,
+    "dueDay": 3,
+    "color": "#B45309",
+    "rewardRules": [
+      {
+        "category": "shopping",
+        "ratePct": 5,
+        "monthlyCap": 2000
+      },
+      {
+        "category": "food",
+        "ratePct": 5,
+        "monthlyCap": 150
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 1850,
+    "pointValueInr": 1,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_amex",
+    "issuer": "Amex",
+    "name": "MRCC (sample)",
+    "last4": "1005",
+    "network": "Amex",
+    "limit": 350000,
+    "outstanding": 3984,
+    "billDay": 22,
+    "dueDay": 12,
+    "color": "#0F766E",
+    "rewardRules": [
+      {
+        "category": "health",
+        "ratePct": 3
+      },
+      {
+        "category": "others",
+        "ratePct": 3
+      },
+      {
+        "category": "fuel",
+        "ratePct": 0,
+        "excluded": true
+      },
+      {
+        "category": "bills",
+        "ratePct": 0,
+        "excluded": true
+      },
+      {
+        "category": "all",
+        "ratePct": 1.5
+      }
+    ],
+    "pointsBalance": 32500,
+    "pointValueInr": 0.4,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_paytm",
+    "issuer": "Paytm SBI",
+    "name": "Paytm SBI Card SELECT (sample)",
+    "last4": "7712",
+    "network": "Visa",
+    "limit": 200000,
+    "outstanding": 3690,
+    "billDay": 12,
+    "dueDay": 2,
+    "color": "#00BAF2",
+    "rewardRules": [
+      {
+        "category": "bills",
+        "ratePct": 3
+      },
+      {
+        "category": "entertainment",
+        "ratePct": 5,
+        "monthlyCap": 500
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 1200,
+    "pointValueInr": 1,
+    "isPaytmCobrand": true
+  }
+]

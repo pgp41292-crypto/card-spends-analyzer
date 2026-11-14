@@ -1,0 +1,114 @@
+{
+  "benefits": [
+    {
+      "id": "b_hdfc_swiggy",
+      "cardId": "c_hdfc",
+      "title": "10% back on Swiggy",
+      "type": "automatic",
+      "description": "On food delivery, Instamart and Dineout via Swiggy. Capped at ₹1,500 a month."
+    },
+    {
+      "id": "b_axis_lounge",
+      "cardId": "c_axis",
+      "title": "International lounge access",
+      "type": "threshold",
+      "description": "Spend ₹75,000 this quarter to unlock 4 international lounge visits.",
+      "condition": {
+        "spendRequired": 75000,
+        "spendSoFar": 68400,
+        "periodEnd": "2026-12-31"
+      }
+    },
+    {
+      "id": "b_axis_miles",
+      "cardId": "c_axis",
+      "title": "Transfer miles to airline partners",
+      "type": "needs_action",
+      "description": "Link your frequent-flyer number in the Axis app before transferring."
+    },
+    {
+      "id": "b_amex_bonus",
+      "cardId": "c_amex",
+      "title": "Monthly 1,000 bonus points",
+      "type": "needs_action",
+      "description": "Make 4 transactions of ₹1,500 or more in a calendar month. Enrol once in the Amex app.",
+      "used": 0,
+      "total": 1
+    },
+    {
+      "id": "b_paytm_lounge",
+      "cardId": "c_paytm",
+      "title": "Domestic lounge visits",
+      "type": "needs_action",
+      "description": "4 complimentary visits a quarter at partner lounges.",
+      "used": 1,
+      "total": 4
+    },
+    {
+      "id": "b_icici_protect",
+      "cardId": "c_icici",
+      "title": "Purchase protection on electronics",
+      "type": "automatic",
+      "description": "Covers theft for 90 days on items bought with the card."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m_hdfc",
+      "cardId": "c_hdfc",
+      "title": "Annual spend milestone",
+      "target": 100000,
+      "progress": 87600,
+      "reward": "a ₹1,500 voucher",
+      "deadline": "2027-03-31"
+    },
+    {
+      "id": "m_axis",
+      "cardId": "c_axis",
+      "title": "Bonus miles milestone",
+      "target": 300000,
+      "progress": 163400,
+      "reward": "5,000 bonus miles",
+      "deadline": "2027-01-31"
+    }
+  ],
+  "expiries": [
+    {
+      "id": "e_axis_pts",
+      "cardId": "c_axis",
+      "kind": "points",
+      "value": 4000,
+      "expiresOn": "2026-12-10"
+    },
+    {
+      "id": "e_amex_pts",
+      "cardId": "c_amex",
+      "kind": "points",
+      "value": 2500,
+      "expiresOn": "2026-12-05"
+    },
+    {
+      "id": "e_hdfc_vch",
+      "cardId": "c_hdfc",
+      "kind": "voucher",
+      "value": 500,
+      "expiresOn": "2027-01-15"
+    }
+  ],
+  "devaluations": [
+    {
+      "id": "dv_axis",
+      "cardId": "c_axis",
+      "date": "2026-10-28",
+      "change": "Accelerated 5X miles on travel now capped at ₹2 lakh a month; transfer ratio cut from 1:2 to 1:1 for 3 airline partners.",
+      "impact": "high"
+    },
+    {
+      "id": "dv_amex",
+      "cardId": "c_amex",
+      "date": "2026-06-15",
+      "change": "Rent and wallet loads no longer earn points.",
+      "impact": "medium"
+    }
+  ]
+}

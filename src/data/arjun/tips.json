@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tip_a1",
+    "title": "Book flights on Axis Travel EDGE for 5X miles",
+    "cardIds": [
+      "c_axis"
+    ],
+    "category": "travel",
+    "estSavingInr": 2400,
+    "lastVerified": "2026-11-12",
+    "status": "verified",
+    "steps": [
+      "Open Travel EDGE from the Axis app.",
+      "Search and book the same fare you found elsewhere.",
+      "Pay with Atlas to earn 5X miles (within the ₹2 lakh monthly cap).",
+      "Miles post within 7 days of travel."
+    ],
+    "sources": [
+      {
+        "label": "r/CreditCardsIndia: Atlas Travel EDGE",
+        "type": "reddit"
+      },
+      {
+        "label": "Atlas in 2026 (video review)",
+        "type": "youtube"
+      },
+      {
+        "label": "Axis Atlas MITC",
+        "type": "issuer"
+      }
+    ]
+  },
+  {
+    "id": "tip_a2",
+    "title": "Transfer Atlas miles before partner ratios change",
+    "cardIds": [
+      "c_axis"
+    ],
+    "category": "travel",
+    "estSavingInr": 3000,
+    "lastVerified": "2026-11-08",
+    "status": "verified",
+    "steps": [
+      "Check which partners still transfer at 1:2.",
+      "Link your frequent-flyer number.",
+      "Transfer in blocks of 1,000 miles."
+    ],
+    "sources": [
+      {
+        "label": "Axis devaluation notice",
+        "type": "issuer"
+      },
+      {
+        "label": "TechnoFino forum",
+        "type": "forum"
+      }
+    ]
+  },
+  {
+    "id": "tip_a3",
+    "title": "Order Swiggy on the HDFC Swiggy card, not via Amazon Pay",
+    "cardIds": [
+      "c_hdfc",
+      "c_icici"
+    ],
+    "category": "food",
+    "estSavingInr": 900,
+    "lastVerified": "2026-11-11",
+    "status": "verified",
+    "steps": [
+      "Remove ICICI Amazon Pay as the saved card in Swiggy.",
+      "Set HDFC Swiggy as default.",
+      "10% back credits as cashback, capped at ₹1,500 a month."
+    ],
+    "sources": [
+      {
+        "label": "HDFC Swiggy card terms",
+        "type": "issuer"
+      },
+      {
+        "label": "r/CreditCardsIndia thread",
+        "type": "reddit"
+      }
+    ]
+  },
+  {
+    "id": "tip_a4",
+    "title": "Amex MRCC: 4 spends of ₹1,500 earn 1,000 bonus points",
+    "cardIds": [
+      "c_amex"
+    ],
+    "category": "general",
+    "estSavingInr": 400,
+    "lastVerified": "2026-10-20",
+    "status": "needs_review",
+    "steps": [
+      "Enrol in the bonus offer.",
+      "Make 4 separate ₹1,500+ spends in a calendar month."
+    ],
+    "sources": [
+      {
+        "label": "Forum post",
+        "type": "forum"
+      }
+    ]
+  },
+  {
+    "id": "tip_a5",
+    "title": "Plan big buys to hit the HDFC milestone by March",
+    "cardIds": [
+      "c_hdfc"
+    ],
+    "category": "general",
+    "estSavingInr": 1500,
+    "lastVerified": "2026-11-09",
+    "status": "verified",
+    "steps": [
+      "Check how much is left on the milestone in Rewards.",
+      "Move planned electronics or insurance payments to this card.",
+      "Avoid wallet loads; they do not count."
+    ],
+    "sources": [
+      {
+        "label": "HDFC milestone terms",
+        "type": "issuer"
+      },
+      {
+        "label": "Milestone walkthrough",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "tip_a6",
+    "title": "HSBC Live+ gives 10% on dining",
+    "cardIds": [
+      "ext_hsbc_live"
+    ],
+    "category": "food",
+    "estSavingInr": 1200,
+    "lastVerified": "2026-11-02",
+    "status": "verified",
+    "steps": [
+      "Apply for the card.",
+      "Use it at restaurants."
+    ],
+    "sources": [
+      {
+        "label": "Issuer page",
+        "type": "issuer"
+      }
+    ]
+  }
+]

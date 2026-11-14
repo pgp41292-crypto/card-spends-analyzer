@@ -1,0 +1,93 @@
+[
+  {
+    "id": "c_hdfc",
+    "issuer": "HDFC",
+    "name": "Millennia (sample)",
+    "last4": "6451",
+    "network": "Visa",
+    "limit": 250000,
+    "outstanding": 8920,
+    "billDay": 5,
+    "dueDay": 25,
+    "color": "#1D4ED8",
+    "rewardRules": [
+      {
+        "category": "food",
+        "ratePct": 5,
+        "monthlyCap": 1000
+      },
+      {
+        "category": "shopping",
+        "ratePct": 5,
+        "monthlyCap": 1000
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 4800,
+    "pointValueInr": 0.25,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_sbi",
+    "issuer": "SBI",
+    "name": "BPCL Octane (sample)",
+    "last4": "2290",
+    "network": "Visa",
+    "limit": 150000,
+    "outstanding": 14758,
+    "billDay": 18,
+    "dueDay": 8,
+    "color": "#7C3AED",
+    "rewardRules": [
+      {
+        "category": "fuel",
+        "ratePct": 4,
+        "monthlyCap": 500
+      },
+      {
+        "category": "groceries",
+        "ratePct": 2.5,
+        "monthlyCap": 300
+      },
+      {
+        "category": "all",
+        "ratePct": 0.5
+      }
+    ],
+    "pointsBalance": 3200,
+    "pointValueInr": 0.25,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_paytm",
+    "issuer": "Paytm SBI",
+    "name": "Paytm SBI Card SELECT (sample)",
+    "last4": "7712",
+    "network": "Visa",
+    "limit": 120000,
+    "outstanding": 2378,
+    "billDay": 12,
+    "dueDay": 2,
+    "color": "#00BAF2",
+    "rewardRules": [
+      {
+        "category": "bills",
+        "ratePct": 3
+      },
+      {
+        "category": "entertainment",
+        "ratePct": 3
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 640,
+    "pointValueInr": 1,
+    "isPaytmCobrand": true
+  }
+]

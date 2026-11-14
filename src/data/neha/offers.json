@@ -1,0 +1,92 @@
+{
+  "suggestions": [
+    {
+      "id": "s_axis_ace",
+      "issuer": "Axis",
+      "name": "ACE (sample)",
+      "annualFee": 499,
+      "isPartner": true,
+      "rewardRules": [
+        {
+          "category": "bills",
+          "ratePct": 5,
+          "monthlyCap": 500
+        },
+        {
+          "category": "food",
+          "ratePct": 4,
+          "monthlyCap": 500
+        },
+        {
+          "category": "all",
+          "ratePct": 1.5
+        }
+      ],
+      "extraValuePerYear": 2856,
+      "reason": "You spend ₹9,433 a month on bills and recharges"
+    },
+    {
+      "id": "s_hsbc_live",
+      "issuer": "HSBC",
+      "name": "Live+ (sample)",
+      "annualFee": 999,
+      "isPartner": false,
+      "rewardRules": [
+        {
+          "category": "food",
+          "ratePct": 10,
+          "monthlyCap": 1000
+        },
+        {
+          "category": "groceries",
+          "ratePct": 10,
+          "monthlyCap": 1000
+        },
+        {
+          "category": "all",
+          "ratePct": 1.5
+        }
+      ],
+      "extraValuePerYear": 13000,
+      "reason": "You spend ₹7,333 a month on groceries"
+    }
+  ],
+  "deals": [
+    {
+      "id": "d_bakery",
+      "merchant": "Sharma Bakery",
+      "distanceKm": 0.4,
+      "item": "Fresh bread and buns",
+      "discountPct": 30,
+      "validUntil": "2026-11-15T21:00:00+05:30",
+      "requiresPaytmCobrand": true
+    },
+    {
+      "id": "d_fruits",
+      "merchant": "Green Basket Fruits",
+      "distanceKm": 1.2,
+      "item": "Cut fruits and salads",
+      "discountPct": 25,
+      "validUntil": "2026-11-15T20:30:00+05:30",
+      "requiresPaytmCobrand": true
+    },
+    {
+      "id": "d_dairy",
+      "merchant": "Kulkarni Dairy",
+      "distanceKm": 0.8,
+      "item": "Paneer and curd",
+      "discountPct": 20,
+      "validUntil": "2026-11-15T22:00:00+05:30",
+      "requiresPaytmCobrand": true
+    },
+    {
+      "id": "d_sweets",
+      "merchant": "Annapurna Sweets",
+      "distanceKm": 2.1,
+      "item": "Fresh jalebi and samosa",
+      "discountPct": 15,
+      "validUntil": "2026-11-15T19:30:00+05:30",
+      "requiresPaytmCobrand": true
+    }
+  ]
+}

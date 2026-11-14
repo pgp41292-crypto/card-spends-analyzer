@@ -1,0 +1,12 @@
+[
+  {
+    "category": "food",
+    "monthlyLimit": 15000,
+    "excludeShared": true
+  },
+  {
+    "category": "shopping",
+    "monthlyLimit": 30000,
+    "excludeShared": true
+  }
+]

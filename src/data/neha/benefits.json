@@ -1,0 +1,116 @@
+{
+  "benefits": [
+    {
+      "id": "b_hdfc_cb",
+      "cardId": "c_hdfc",
+      "title": "5% cashback on food delivery and shopping",
+      "type": "automatic",
+      "description": "Credited automatically on Swiggy, Zomato, Amazon and Flipkart. Capped at ₹1,000 a month for each."
+    },
+    {
+      "id": "b_hdfc_fuel",
+      "cardId": "c_hdfc",
+      "title": "1% fuel surcharge waiver",
+      "type": "automatic",
+      "description": "On fuel spends between ₹400 and ₹5,000."
+    },
+    {
+      "id": "b_hdfc_lounge",
+      "cardId": "c_hdfc",
+      "title": "Lounge access",
+      "type": "threshold",
+      "description": "Spend ₹50,000 this quarter to unlock 2 domestic lounge visits.",
+      "condition": {
+        "spendRequired": 50000,
+        "spendSoFar": 42170,
+        "periodEnd": "2026-12-31"
+      }
+    },
+    {
+      "id": "b_sbi_fuel",
+      "cardId": "c_sbi",
+      "title": "Fuel surcharge waiver at BPCL",
+      "type": "automatic",
+      "description": "On ₹400–₹4,000 fills, up to ₹100 a month."
+    },
+    {
+      "id": "b_sbi_protect",
+      "cardId": "c_sbi",
+      "title": "Purchase protection on electronics",
+      "type": "needs_action",
+      "description": "Register a purchase within 30 days to cover theft or damage up to ₹50,000.",
+      "used": 0,
+      "total": 1
+    },
+    {
+      "id": "b_paytm_lounge",
+      "cardId": "c_paytm",
+      "title": "Domestic lounge visits",
+      "type": "needs_action",
+      "description": "4 complimentary visits a quarter at partner lounges. Show the card at the lounge desk.",
+      "used": 2,
+      "total": 4
+    },
+    {
+      "id": "b_paytm_movie",
+      "cardId": "c_paytm",
+      "title": "Movie tickets: buy 1 get 1",
+      "type": "needs_action",
+      "description": "On BookMyShow, up to ₹250 off, twice a month. Use code SELECTBOGO at checkout.",
+      "used": 0,
+      "total": 2
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m_hdfc",
+      "cardId": "c_hdfc",
+      "title": "Spend milestone",
+      "target": 150000,
+      "progress": 106170,
+      "reward": "a ₹1,500 gift voucher",
+      "deadline": "2027-03-31"
+    },
+    {
+      "id": "m_paytm",
+      "cardId": "c_paytm",
+      "title": "Annual fee waiver",
+      "target": 100000,
+      "progress": 66830,
+      "reward": "an annual fee waiver worth ₹1,499",
+      "deadline": "2027-03-31"
+    }
+  ],
+  "expiries": [
+    {
+      "id": "e_hdfc_pts",
+      "cardId": "c_hdfc",
+      "kind": "points",
+      "value": 1200,
+      "expiresOn": "2026-11-22"
+    },
+    {
+      "id": "e_paytm_vch",
+      "cardId": "c_paytm",
+      "kind": "voucher",
+      "value": 500,
+      "expiresOn": "2026-11-22"
+    },
+    {
+      "id": "e_sbi_pts",
+      "cardId": "c_sbi",
+      "kind": "points",
+      "value": 800,
+      "expiresOn": "2027-01-31"
+    }
+  ],
+  "devaluations": [
+    {
+      "id": "dv_hdfc",
+      "cardId": "c_hdfc",
+      "date": "2026-08-01",
+      "change": "Cashback on rent and wallet loads removed.",
+      "impact": "low"
+    }
+  ]
+}

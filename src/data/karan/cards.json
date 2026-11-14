@@ -1,0 +1,54 @@
+[
+  {
+    "id": "c_sbi",
+    "issuer": "SBI",
+    "name": "SimplyCLICK (sample)",
+    "last4": "5530",
+    "network": "Visa",
+    "limit": 60000,
+    "outstanding": 0,
+    "billDay": 10,
+    "dueDay": 30,
+    "color": "#7C3AED",
+    "rewardRules": [
+      {
+        "category": "shopping",
+        "ratePct": 5,
+        "monthlyCap": 500
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 1450,
+    "pointValueInr": 0.25,
+    "isPaytmCobrand": false
+  },
+  {
+    "id": "c_kotak",
+    "issuer": "Kotak",
+    "name": "811 (sample)",
+    "last4": "1186",
+    "network": "RuPay",
+    "limit": 40000,
+    "outstanding": 5600,
+    "billDay": 3,
+    "dueDay": 23,
+    "color": "#DC2626",
+    "rewardRules": [
+      {
+        "category": "food",
+        "ratePct": 2,
+        "monthlyCap": 200
+      },
+      {
+        "category": "all",
+        "ratePct": 1
+      }
+    ],
+    "pointsBalance": 600,
+    "pointValueInr": 0.25,
+    "isPaytmCobrand": false
+  }
+]

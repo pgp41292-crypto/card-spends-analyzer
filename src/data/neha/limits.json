@@ -1,0 +1,17 @@
+[
+  {
+    "category": "food",
+    "monthlyLimit": 8000,
+    "excludeShared": true
+  },
+  {
+    "category": "shopping",
+    "monthlyLimit": 12000,
+    "excludeShared": true
+  },
+  {
+    "category": "entertainment",
+    "monthlyLimit": 3000,
+    "excludeShared": true
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "tip_k1",
+    "title": "Book movies on BookMyShow with SimplyCLICK for 5X",
+    "cardIds": [
+      "c_sbi"
+    ],
+    "category": "entertainment",
+    "estSavingInr": 120,
+    "lastVerified": "2026-11-13",
+    "status": "verified",
+    "steps": [
+      "Open BookMyShow and pick your show.",
+      "Pay with SBI SimplyCLICK.",
+      "Points credit on the next statement."
+    ],
+    "sources": [
+      {
+        "label": "SBI SimplyCLICK partners list",
+        "type": "issuer"
+      },
+      {
+        "label": "r/CreditCardsIndia thread",
+        "type": "reddit"
+      }
+    ]
+  },
+  {
+    "id": "tip_k2",
+    "title": "Let the friend with the best card pay for group bookings",
+    "cardIds": [
+      "c_sbi",
+      "c_kotak"
+    ],
+    "category": "travel",
+    "estSavingInr": 1200,
+    "lastVerified": "2026-11-11",
+    "status": "verified",
+    "steps": [
+      "Open your circle and tap \"Who should pay?\".",
+      "Enter the merchant and amount.",
+      "The top-ranked member pays and the app splits it.",
+      "Settle your share over UPI."
+    ],
+    "sources": [
+      {
+        "label": "Group travel hacks (video)",
+        "type": "youtube"
+      }
+    ]
+  },
+  {
+    "id": "tip_k3",
+    "title": "Convert big buys to no-cost EMI on Kotak 811",
+    "cardIds": [
+      "c_kotak"
+    ],
+    "category": "shopping",
+    "estSavingInr": 300,
+    "lastVerified": "2026-10-15",
+    "status": "needs_review",
+    "steps": [
+      "Pick no-cost EMI at checkout.",
+      "Check the processing fee before confirming."
+    ],
+    "sources": [
+      {
+        "label": "Forum post",
+        "type": "forum"
+      }
+    ]
+  }
+]

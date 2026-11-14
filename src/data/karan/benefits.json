@@ -1,0 +1,53 @@
+{
+  "benefits": [
+    {
+      "id": "b_sbi_online",
+      "cardId": "c_sbi",
+      "title": "5X rewards online",
+      "type": "automatic",
+      "description": "On Amazon, Myntra, BookMyShow and other partner sites. Capped at ₹500 a month."
+    },
+    {
+      "id": "b_sbi_voucher",
+      "cardId": "c_sbi",
+      "title": "₹500 travel voucher",
+      "type": "threshold",
+      "description": "Spend ₹40,000 this quarter to get a ₹500 travel voucher.",
+      "condition": {
+        "spendRequired": 40000,
+        "spendSoFar": 25600,
+        "periodEnd": "2026-12-31"
+      }
+    },
+    {
+      "id": "b_kotak_movie",
+      "cardId": "c_kotak",
+      "title": "Free movie ticket each quarter",
+      "type": "needs_action",
+      "description": "Book on PVR INOX with the card to get 1 ticket free (up to ₹200).",
+      "used": 0,
+      "total": 1
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m_sbi",
+      "cardId": "c_sbi",
+      "title": "Annual fee reversal",
+      "target": 100000,
+      "progress": 47600,
+      "reward": "an annual fee reversal worth ₹499",
+      "deadline": "2027-03-31"
+    }
+  ],
+  "expiries": [
+    {
+      "id": "e_sbi_vch",
+      "cardId": "c_sbi",
+      "kind": "voucher",
+      "value": 500,
+      "expiresOn": "2026-12-31"
+    }
+  ],
+  "devaluations": []
+}
